@@ -2,6 +2,8 @@
 
 # Course topic:
 
+### Introduction to HTML & CSS
+
           What is HTML?
 
           Creating HTML Page
@@ -18,7 +20,25 @@
 
           Inline and Block Elements.
 
+### HTML Structure
 
+          Semantic HTML;
+         
+          HTML Tags;
+
+          Forms;
+
+          Tables.
+
+### CSS & Typography
+
+          Typography;
+
+          Priciples of Readability;
+      
+          CSS Properties;
+      
+          Font Awesome Icons.
 
 
 # Every file have folders Exercise, ExerciseCode and Presentation
