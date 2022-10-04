@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.first {
+    background-image: linear-gradient(to right, rgb(83, 128, 224), rgb(152, 250, 190));
+    height: 1000px;
+
+}
+
+.second {
+    background-image: linear-gradient(to right, rgb(235, 77, 88), rgb(235, 132, 77));
+    height: 1000px;
+
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+i{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}

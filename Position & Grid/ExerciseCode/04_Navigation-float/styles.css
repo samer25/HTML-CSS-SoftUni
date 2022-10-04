@@ -1,0 +1,107 @@
+
+body {
+    background: rgb(238, 238, 238);
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+
+}
+
+h1,
+h2,
+h3 {
+    font-weight: lighter;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+
+
+
+.nav-bar {
+    padding: 5px 25px;
+    border-bottom: 4px solid black;
+    height: 75px;
+}
+
+.nav-bar p {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.nav-bar nav {
+    float: right;
+    margin-right: 50px;
+}
+
+.nav-bar nav ul {
+
+}
+
+.nav-bar nav ul li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.nav-bar nav ul li a, aside ul li a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+main {
+    /*padding: 5px 25px;*/
+    max-width: 70%;
+    padding-bottom: 50px;
+
+}
+
+
+.first-layer .first-img {
+    float: right;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+    padding: 8px;
+}
+
+aside {
+    vertical-align: top;
+    max-width: 30%;
+    position: absolute;
+    top: 130px;
+    left: 75%;
+}
+
+aside ul li {
+    padding: 3px;
+}
+
+.clearfix {
+    contents: "";
+    display: table;
+    clear: both;
+}
+
+
+blockquote {
+    border-left: 4px solid silver;
+    padding-left: 20px;
+    color: darkgrey;
+    font-style: italic;
+    max-width: 45%;
+    float: right;
+    margin: 8px 20px;
+}
+
+.second-img {
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
